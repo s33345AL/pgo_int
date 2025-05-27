@@ -2,8 +2,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Main {
-    public static void main(String[] args) {
-        ArrayList<Car> cars = new ArrayList<>();
+    public static void main(String[] args) throws NegativeNumberException {
+        /*ArrayList<Car> cars = new ArrayList<>();
         cars.add(new Car("BMW", 11));
         cars.add(new Car("Audi", 24));
         cars.add(new Car("Volvo", 56));
@@ -18,6 +18,11 @@ public class Main {
         Collections.sort(cars);
         for (Car car : cars) {
             System.out.println(car);
-        }
+        }*/
+
+        liczby liczby = new liczby();
+        liczby.fillArray();
+        liczby.pokazTablice();
+        liczby.readNumber();
     }
 }
